@@ -11,7 +11,7 @@ public class SafeDivision {
 
         System.out.println("Enter second Number");
         int number2 = 0;
-        double result = number1 / number2;
+        double result = 0;
 
         while (number2 == 0) {
             number2 = myScan.nextInt();
