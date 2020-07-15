@@ -3,8 +3,8 @@ package main.java.com.volkova.division;
 import java.util.Scanner;
 
 public class SafeDivision {
+    Scanner myScan = new Scanner(System.in);
     public void division() {
-        Scanner myScan = new Scanner(System.in);
         System.out.println("Enter the first Number please");
 
         int number1 = myScan.nextInt();
